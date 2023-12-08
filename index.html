@@ -1,0 +1,64 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header class="container">
+                <div class="header-container">
+                    <!-- Header image is here -->
+                    <div class="title-container">
+                        <h1 class="header-title">Zaki's Diner</h1>
+                        <h3 class="header-paragraph">The best burgers and pizzas in town</h3>
+                    </div>
+                </div>
+        </header>
+        <section id="menu">
+            <!-- Menu lives here -->
+        </section>
+        <!----------------------------------------------------->
+        <section id="order" class="order">
+            <div class="order-header">
+                <h1>Your order</h1>
+            </div>
+            <div id="the-order" class="the-order">
+                <!-- the parent order -->
+                <!-- <div class="order-list">
+                    <div class="inner-order-list">
+                        <h2>pizza</h2>
+                        <button class="remove-btn">remove</button>
+                    </div>
+                    <h2>$14</h2>
+                </div> -->
+            </div>
+            <div id="total-price" class="total-price">
+                <!-- <div class="inner-total-price">
+                    <h2>Total price:</h2>
+                    <h2>$20</h2>
+                </div> -->
+            </div>
+            <button id="compelete-order-btn" class="compelete-order-btn">Compelete order</button>
+        </section>
+        <div id="modal" class="modal">
+            <div class="modal-inner">
+                <h2 class="modal-header">Enter card details</h2>
+                <form id="modal-form">
+                    <input type="text" name="fullName" placeholder="Enter your name" required>
+                    <input type="number" name="cardNumber" placeholder="Enter your card number" required>
+                    <input type="number" name="cvv" placeholder="Enter CVV" required>
+                    <button id="pay-btn" class="pay-btn" type="submit">Pay</button>
+                </form>
+            </div>
+        </div>
+        <div id="thanking-message" class="thanking-message">
+            <div id="thanking-inner" class="thanking-inner">
+                <!-- <p>Mohamed your order is on it way</p> -->
+            </div>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
